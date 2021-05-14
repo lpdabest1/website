@@ -330,11 +330,11 @@ submit {
 
 
 footer {
-  #diplay: flex;
-  #position: relative;
+  diplay: flex;
+  position: relative;
   justify-content: space-evenly;
   #height: 100vh;
-  height: 50px;
+  height: 100%;
   width: 100%;
   color: white;
   background-color: black;
