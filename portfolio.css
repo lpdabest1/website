@@ -330,8 +330,8 @@ submit {
 
 
 footer {
-  diplay: flex;
-  position: relative;
+  #diplay: flex;
+  #position: relative;
   justify-content: space-evenly;
   height: 20vh;
   width: 100%;
