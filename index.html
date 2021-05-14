@@ -1,6 +1,7 @@
-<!---<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>--->
+
 <link rel="stylesheet" href="portfolio.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
@@ -25,9 +26,10 @@ For now, the test suite only works in Chrome! Please read the README below in th
 - The freeCodeCamp Team 
 
 -->
-<html>
-<div id="page-wrapper">
-<nav class="navbar-custom">
+<!--<html>
+<div id="page-wrapper">-->
+<!-- Start of Navigation Bar-->
+<nav id="navbar" class="navbar-custom">
   <ul class="nav-list navbar-nav">
   <li><a class="nav-link" href="#welcome-section">About</a></li> 
   <li><a class="nav-link" href="#projects">Projects</a></li>
@@ -41,7 +43,7 @@ For now, the test suite only works in Chrome! Please read the README below in th
   <!-- Welcome Section -->
   
   <section id="welcome-section" class="welcome-section">
-    <h1> I am Lorenzo Pesina</h1>
+    <h1>I am Lorenzo Pesina</h1>
       <p>A Web Developer</p>
   </section>
   
@@ -98,24 +100,22 @@ For now, the test suite only works in Chrome! Please read the README below in th
         </a>
  
 
-         
+    </div> 
   <!--- End of Project(s) Section -->
 
   <!--- More Projects/ All Projects Link --->
-    <div>    
+       
     <a
                 href="https://codepen.io/lorenzopesina"
                 target="_blank"
-                class=" more-projects-tile">
-            <div> <!-- remove div if it does not solve problem -->
+                class="more-projects-tile">
+           <!-- remove div if it does not solve problem -->
             <p class="more-projects" style="color:white">
-                More Projects
+              
+      More Projects
             </p>
-            </div>
         </a>
-    </div>
-    </div>
-    </div>
+    
   </section>
         
          
@@ -123,8 +123,10 @@ For now, the test suite only works in Chrome! Please read the README below in th
 
 
   <section id="contact-section" class="contact-section">
-    <h2 class="contact-section-header">Interested in working together?</h2>
+    <div class="contact-section-header">
+    <h2>Interested in working together?</h2>
     <p class="contact-reach-me">Reach me at any of the following:</p>
+    </div>
     <div class="contact-links">
       
       <a id="profile-link"
@@ -154,24 +156,28 @@ For now, the test suite only works in Chrome! Please read the README below in th
           <input type="submit">
         </div> --->
     <!-- attempts for comment submission from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_textarea_required-->
+</section>
+
+
+<section>
 <div class="comment">
 <form action="/action_page.php">
-<textarea rows="4" cols="50" name="comment" style="color:black" required>
+<textarea class="text-entry" rows="auto" cols="auto" name="comment" style="color:black" placeholder="Additional Comments/Leave a Message" required>
 </textarea>
-<input type="submit" style="color:black">
+<input class="submit-button" type="submit" style="color:black">
 </form>
 </div> 
 </section> 
-<section>    
+    
 <footer>
   <p class="footer-notes"> Portfolios are of the developer Lorenzo Pesina. If you want to use any of the following projects please contact him.</p>
   <p>&copy;Created at 
     <a href="https://codepen.io/lorenzopesina/"
        target="_blank">
       CodePen <i class="fab fa-codepen"></i></a></p></footer>
-    </section>  
+
    
-      </div>
-      </html>
+      <!--</div>
+      </html>-->
     
   
