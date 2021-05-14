@@ -1,0 +1,177 @@
+<!---<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>--->
+<link rel="stylesheet" href="portfolio.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<html>
+<div id="page-wrapper">
+<nav class="navbar-custom">
+  <ul class="nav-list navbar-nav">
+  <li><a class="nav-link" href="#welcome-section">About</a></li> 
+  <li><a class="nav-link" href="#projects">Projects</a></li>
+  <li><a class="nav-link" href="#contact-section">Contact</a></li>
+    <li><form method="get" action="https://assets.codepen.io/6085436/LorenzoPesina_Resume.pdf">
+      <button type="submit" class="btn navbar-btn btn-outline-primary btn-sm  active">Resume</button></form></li>
+
+
+ </ul></nav>
+  
+  <!-- Welcome Section -->
+  
+  <section id="welcome-section" class="welcome-section">
+    <h1> I am Lorenzo Pesina</h1>
+      <p>A Web Developer</p>
+  </section>
+  
+  
+  <!-- This is the start of the project section -->
+  <section id="projects" class="projects-section">
+    <h2 class="projects-section-header">Personal Projects</h2>
+    <div id="projects-grids" class="projects-grid">
+      
+      
+      
+      <!--- Tribute Project --->
+      <a                                   
+         href="https://cdpn.io/lorenzopesina/debug/poRGagY"
+         target="_blank"
+         class="project-tile">
+      <img
+         class="project-tile-box"
+         src="https://assets.codepen.io/6085436/Technical+Documentation+Page+Python+Thumbnail.JPG"
+         alt="project"
+           />
+      <p class="project-title">
+        Technical Documentation: Python
+      </p>
+      </a>
+
+
+        <a
+                href="https://codepen.io/lorenzopesina/full/QWdOgKv"
+                target="_blank"
+                class="project project-tile">
+            <img
+                    class="project-tile-box"
+                    src="https://opimedia.azureedge.net/-/media/images/utr/editorial/articles/online-articles/2014/04-01/albert-einstein-the-humanitarian/albert-einstein-jpg.jpg"
+                    alt="project"
+            />
+            <p class="project-title">
+                Tribute Page: <br> Albert Einstein
+            </p>
+        </a>
+
+        <a
+                href="https://cdpn.io/lorenzopesina/debug/vYgbxQg"
+                target="_blank"
+                class="project project-tile">
+            <img
+                    class="project-tile-box"
+                    src= "https://assets.codepen.io/6085436/small_IFIXIT_Thumbnail.JPG"
+                    alt="project"
+            />
+            <p class="project-title">
+                Product Landing Page: <br> IFIXIT
+            </p>
+        </a>
+ 
+
+         
+  <!--- End of Project(s) Section -->
+
+  <!--- More Projects/ All Projects Link --->
+    <div>    
+    <a
+                href="https://codepen.io/lorenzopesina"
+                target="_blank"
+                class=" more-projects-tile">
+            <div> <!-- remove div if it does not solve problem -->
+            <p class="more-projects" style="color:white">
+                More Projects
+            </p>
+            </div>
+        </a>
+    </div>
+    </div>
+    </div>
+  </section>
+        
+         
+ <!--- Contact Section -->        
+
+
+  <section id="contact-section" class="contact-section">
+    <h2 class="contact-section-header">Interested in working together?</h2>
+    <p class="contact-reach-me">Reach me at any of the following:</p>
+    <div class="contact-links">
+      
+      <a id="profile-link"
+         href="https://github.com/lpdabest1"
+         target="_blank"
+         class="btn contact-details">
+        <i class="fab fa-github icon"></i><p class="icon-spec">
+        Github</p></a>         
+
+         
+      <a id="profile-link"
+         href="mailto:lorenzo.pesina@utexas.edu"
+         class="btn contact-details"><i class="fas fa-envelope icon"></i><p class="icon-spec">
+        
+        Mail</p></a> 
+      <a id="profile-link"         
+         href="tel:512-621-0539"
+         class="btn btn-contact contact-details"><i class="fas fa-phone icon"></i><p class="icon-spec">
+        Phone</p></a>
+    </div>
+    
+        <!--additional comments code 
+        <div id="comments" >
+          <label for ="comments" style="color: white">Additional Comments</label><br>
+         <textarea placeholder="Enter Additional Comments">
+         </textarea>
+          <input type="submit">
+        </div> --->
+    <!-- attempts for comment submission from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_textarea_required-->
+<div class="comment">
+<form action="/action_page.php">
+<textarea rows="4" cols="50" name="comment" style="color:black" required>
+</textarea>
+<input type="submit" style="color:black">
+</form>
+</div> 
+</section> 
+<section>    
+<footer>
+  <p class="footer-notes"> Portfolios are of the developer Lorenzo Pesina. If you want to use any of the following projects please contact him.</p>
+  <p>&copy;Created at 
+    <a href="https://codepen.io/lorenzopesina/"
+       target="_blank">
+      CodePen <i class="fab fa-codepen"></i></a></p></footer>
+    </section>  
+   
+      </div>
+      </html>
+    
+  
