@@ -333,7 +333,8 @@ footer {
   #diplay: flex;
   #position: relative;
   justify-content: space-evenly;
-  height: 20vh;
+  #height: 100vh;
+  height: 50px;
   width: 100%;
   color: white;
   background-color: black;
