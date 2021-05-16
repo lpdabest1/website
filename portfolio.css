@@ -339,6 +339,8 @@ a {
 }
 
 .more-projects-tile{
+  display: flex;
+  flex-direction: column;
   margin: 2rem auto;
   text-decoration: none;
   list-style: none;
@@ -408,7 +410,7 @@ a {
   color: white;
 }
 .contact-section {
-  #position: relative;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
