@@ -210,9 +210,9 @@ h1{
   #background-color: #03f2ff/*white*/;
   text-align: center;
   background-color: #4a60a8;
-  height: 100%;
-  #height: 100%;
-  width: 100%;
+  #height: #100%;
+  #height: #100%;
+  #width: #100%;
   padding: 10rem 2rem;
   
 }
