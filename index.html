@@ -34,7 +34,7 @@ For now, the test suite only works in Chrome! Please read the README below in th
   <li><a class="nav-link" href="#welcome-section">About</a></li> 
   <li><a class="nav-link" href="#projects">Projects</a></li>
   <li><a class="nav-link" href="#contact-section">Contact</a></li>
-    <li><form method="get" action="https://assets.codepen.io/6085436/LorenzoPesina_Resume.pdf">
+    <li><form method="get" action="https://assets.codepen.io/6085436/LorenzoPesina_Resume.pdf" target="_blank">
       <button type="submit" class="btn navbar-btn btn-outline-primary btn-sm  active">Resume</button></form></li>
 
 
@@ -43,7 +43,7 @@ For now, the test suite only works in Chrome! Please read the README below in th
   <!-- Welcome Section -->
   
   <section id="welcome-section" class="welcome-section">
-    <h1>I am Lorenzo Pesina</h1>
+    <h1>Lorenzo Pesina</h1>
       <p>A Web Developer</p>
   </section>
   
@@ -59,7 +59,8 @@ For now, the test suite only works in Chrome! Please read the README below in th
       <a                                   
          href="https://cdpn.io/lorenzopesina/debug/poRGagY"
          target="_blank"
-         class="project-tile">
+         class="project-tile"
+         style="text-decoration: none">
       <img
          class="project-tile-box"
          src="https://assets.codepen.io/6085436/Technical+Documentation+Page+Python+Thumbnail.JPG"
@@ -74,7 +75,8 @@ For now, the test suite only works in Chrome! Please read the README below in th
         <a
                 href="https://codepen.io/lorenzopesina/full/QWdOgKv"
                 target="_blank"
-                class="project project-tile">
+                class="project project-tile"
+                style="text-decoration: none">
             <img
                     class="project-tile-box"
                     src="https://opimedia.azureedge.net/-/media/images/utr/editorial/articles/online-articles/2014/04-01/albert-einstein-the-humanitarian/albert-einstein-jpg.jpg"
@@ -88,7 +90,8 @@ For now, the test suite only works in Chrome! Please read the README below in th
         <a
                 href="https://cdpn.io/lorenzopesina/debug/vYgbxQg"
                 target="_blank"
-                class="project project-tile">
+                class="project project-tile"
+                style="text-decoration: none">
             <img
                     class="project-tile-box"
                     src= "https://assets.codepen.io/6085436/small_IFIXIT_Thumbnail.JPG"
@@ -110,10 +113,12 @@ For now, the test suite only works in Chrome! Please read the README below in th
                 target="_blank"
                 class="more-projects-tile">
            <!-- remove div if it does not solve problem -->
-            <p class="more-projects" style="color:white">
+      <button class="btn-custom">More Projects</button>
+        
+        <!--<p class="more-projects" style="color:white">
               
-      More Projects
-            </p>
+      More Projects</button>
+            </p>-->
         </a>
     
   </section>
@@ -129,23 +134,37 @@ For now, the test suite only works in Chrome! Please read the README below in th
     </div>
     <div class="contact-links">
       
+        
       <a id="profile-link"
          href="https://github.com/lpdabest1"
          target="_blank"
          class="btn contact-details">
         <i class="fab fa-github icon"></i><p class="icon-spec">
-        Github</p></a>         
+        Github</p></a>       
 
          
       <a id="profile-link"
          href="mailto:lorenzo.pesina@utexas.edu"
          class="btn contact-details"><i class="fas fa-envelope icon"></i><p class="icon-spec">
         
-        Mail</p></a> 
+        Mail</p></a>
+        
+        
       <a id="profile-link"         
          href="tel:512-621-0539"
          class="btn btn-contact contact-details"><i class="fas fa-phone icon"></i><p class="icon-spec">
         Phone</p></a>
+    
+    
+    
+    <a id="profile-link"         
+         href="https://www.linkedin.com/in/lorenzopesina/"
+       target="_blank"
+         class="btn btn-contact contact-details"><i class="fab fa-linkedin icon"></i><p class="icon-spec">
+      LinkedIn</p></a>
+      
+        
+         
     </div>
     
         <!--additional comments code 
@@ -164,7 +183,16 @@ For now, the test suite only works in Chrome! Please read the README below in th
 <form action="return-submit.html">
 <textarea class="text-entry" rows="auto" cols="auto" name="comment" style="color:black" placeholder="Additional Comments/Leave a Message" required>
 </textarea>
-  <a href="return-submit.html"><input class="submit-button" type="submit" style="color:black"></a>
+  <a href="return-submit.html"
+     target="_blank"
+     class="more-projects-tile"
+     style="text-decoration:none">
+  <!--- revert back to input version if button function doesn't resolve margin issue  
+  <input class="submit-button" type="submit" style="color:black"></a>
+  
+  -------------------------------------------------------------------->
+    <button class="submit-button">Submit</button></a>
+
 </form>
 </div> 
 </section> 
