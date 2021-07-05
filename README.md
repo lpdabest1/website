@@ -1,2 +1,2 @@
-# website
+# Website
 Starter Webpage Portfolio
